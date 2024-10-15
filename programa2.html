@@ -13,19 +13,26 @@
          
     }
 
-    function motra(texto){ 
+    function mostra(texto){ 
          document.write(texto)
          pulalinha()
+        }
           
+    
+
+    function calcularIMC(peso, altura){
+        return imc = peso/(altura*altura)
     }
-     let pesojp = 70
-         let altura = 1.72
+
+    let imcjp = calcularIMC(72, 1.72)
+
+    mostra('o IMC de jp é: ' + imcjp)
+
+        
+         
 
 
-         let imcjp = pesojp/(alturajp*alturajp)
-
-         mostr('0 IMC de jp é ' ${incjp})//templete string 
-         motra('O IMC de jp é ' + imcjp)//concatenação normal
+          
     </script>
 </body>
 </html>
