@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Rubik+Wet+Paint&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+}
+:root{
+    --fonte-titulo:"Anton SC", sans-serif;
+    --fonte-texto:Rubik Wet Paint", system-ui";
+    --cor1: rgb(0, 0, 0);
+    --cor2: rgb(76, 110, 168);
+    --cor3: rgba(126, 211, 245, 0.829);
+    --cor4: rgb(0, 0, 0);
+    --cor5: rgb(241, 4, 44);
+}
+body{
+    background-color:var(--cor1);
+    font-family: var(--fonte-texto);
+
+}
+header, footer{
+    background-color: var(--co4);
+    padding: 2em;
+    color: var(--cor5);
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em
+
+
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
